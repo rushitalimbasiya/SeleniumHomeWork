@@ -1,0 +1,628 @@
+{
+  "id": "429b02eb-7ab0-44b1-870e-f84163a84f60",
+  "version": "2.0",
+  "name": "santander",
+  "url": "https://groceries.asda.com",
+  "tests": [{
+    "id": "f7484a20-646b-4c56-90a4-76b551b6bd4f",
+    "name": "santander_1",
+    "commands": [{
+      "id": "97ef53e8-8025-4219-a0ab-58a0303b5862",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.santander.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dbfb40a-2c0b-4560-9a6b-40c3082ef1a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d05756d6-c795-4eb0-8640-39ff08b8026d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Current accounts",
+      "targets": [
+        ["linkText=Current accounts", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Current accounts')]", "xpath:link"],
+        ["xpath=//nav[@id='main-menu--special']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/personal/current-accounts')]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Current accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "720168f9-c835-4f7e-bc50-11343819615b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 9 > .text",
+      "targets": [
+        ["css=#\\36 9 > .text", "css:finder"],
+        ["xpath=//a[@id='69']/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25fdc7a0-b288-494c-9b7d-c26e85c0efc2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Full details",
+      "targets": [
+        ["linkText=Full details", "linkText"],
+        ["css=.views-row:nth-child(1) .col-xs-12 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Full details')]", "xpath:link"],
+        ["xpath=//div[@id='sp-3527']/div/div/div/div/div/div[2]/div/div/div/div[4]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/personal/current-accounts/123-current-account')])[4]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Full details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25e147bb-a114-4698-ab7f-83723fe3ec75",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1|2|3 World offers",
+      "targets": [
+        ["linkText=1|2|3 World offers", "linkText"],
+        ["css=.bullet-tick > li:nth-child(1) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'1|2|3 World offers')]", "xpath:link"],
+        ["xpath=//div[@id='sp-4514']/div/div/div/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/personal/123-world')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1|2|3 World offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "629cc238-fbcf-4f3a-b92b-8219d99557a1",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@class=\"view-header\"]/div/ul/li[1]/a",
+      "targets": [
+        ["linkText=Current accounts", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Current accounts')]", "xpath:link"],
+        ["xpath=//nav[@id='main-menu--special']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/personal/current-accounts')]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Current accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67ee2d05-8e47-436d-b78f-219796724d3a",
+      "comment": "",
+      "command": "click",
+      "target": "id=bp-link_en_183216-0",
+      "targets": [
+        ["id=bp-link_en_183216-0", "id"],
+        ["linkText=Apply", "linkText"],
+        ["css=#bp-link_en_183216-0", "css:finder"],
+        ["xpath=(//a[contains(text(),'Apply')])[2]", "xpath:link"],
+        ["xpath=//a[@id='bp-link_en_183216-0']", "xpath:attributes"],
+        ["xpath=//div[@id='sp-1361']/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.santander.co.uk/personal/current-accounts/everyday-current-account/apply-for-an-everyday-current-account']", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09bdafb5-7d4d-4e0a-8c16-6ca2be4b5805",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@class='col-xs-12']/div[@class='bp-button']/div/a[@id='bp-link_en_229731-0']",
+      "targets": [],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3418",
+      "windowTimeout": 2000
+    }, {
+      "id": "1950b82e-92da-49e5-ba5b-2c312a1db85e",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"bp-link_en_229731-0\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1281c98-abc2-4b7c-9c94-940e1aca712b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Online and Mobile Banking",
+      "targets": [
+        ["linkText=Online and Mobile Banking", "linkText"],
+        ["css=.form-group:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Online and Mobile Banking')]", "xpath:link"],
+        ["xpath=(//a[@onclick='Drupal.digitalData.event(this);'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='edit-id']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.santander.co.uk/personal/support/talk-to-us?id=187&idtitle=online-and-mobile-banking')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online and Mobile Banking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67bc1621-b7dc-42e1-801b-22284174fd87",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Manage your account",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fe6c1b74-17e7-450e-afd3-bd63d2c2a95f",
+    "name": "santander_2",
+    "commands": [{
+      "id": "7c3e441d-dcc4-4eaf-b4dd-5a226378fa38",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.santander.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "906ebd6c-6032-4b63-b605-b7322d96fce2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a659ddc-c531-41e5-a938-40b27bd9bc2c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Current accounts",
+      "targets": [
+        ["linkText=Current accounts", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Current accounts')]", "xpath:link"],
+        ["xpath=//nav[@id='main-menu--special']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/personal/current-accounts')]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Current accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "577b691c-1949-4c36-bef8-5dee0f4289f1",
+      "comment": "",
+      "command": "assertText",
+      "target": "//a[@id='70']/div",
+      "targets": [],
+      "value": "No monthly fee"
+    }, {
+      "id": "2d56ab05-03f6-40be-b1ce-19b94b2ef5e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 9 > .text",
+      "targets": [
+        ["css=#\\36 9 > .text", "css:finder"],
+        ["xpath=//a[@id='69']/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3a21bf8-a874-4962-a483-e1ac1a28d88e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Full details",
+      "targets": [
+        ["linkText=Full details", "linkText"],
+        ["css=.views-row:nth-child(1) .col-xs-12 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Full details')]", "xpath:link"],
+        ["xpath=//div[@id='sp-3527']/div/div/div/div/div/div[2]/div/div/div/div[4]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/personal/current-accounts/123-current-account')])[4]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Full details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b815be9-4fa1-43f0-b094-ac9231b5b963",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1|2|3 World offers",
+      "targets": [
+        ["linkText=1|2|3 World offers", "linkText"],
+        ["css=.bullet-tick > li:nth-child(1) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'1|2|3 World offers')]", "xpath:link"],
+        ["xpath=//div[@id='sp-4514']/div/div/div/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/personal/123-world')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1|2|3 World offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccfddcf2-7264-4f26-8021-2c923323e0a0",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@class=\"view-header\"]/div/ul/li[1]/a",
+      "targets": [
+        ["linkText=1|2|3 Current Account", "linkText"],
+        ["css=.field:nth-child(1) li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'1|2|3 Current Account')])[2]", "xpath:link"],
+        ["xpath=//div[@id='sp-6138']/div/div/div/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/personal/current-accounts/123-current-account')])[2]", "xpath:href"],
+        ["xpath=//div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58b597a5-0815-4d80-9000-22ddf9bcf2ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=bp-link_en_220653-0",
+      "targets": [
+        ["id=bp-link_en_220653-0", "id"],
+        ["linkText=Apply", "linkText"],
+        ["css=#bp-link_en_220653-0", "css:finder"],
+        ["xpath=(//a[contains(text(),'Apply')])[2]", "xpath:link"],
+        ["xpath=//a[@id='bp-link_en_220653-0']", "xpath:attributes"],
+        ["xpath=//div[@id='sp-1699']/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.santander.co.uk/personal/current-accounts/123-current-account/apply-for-a-123-current-account'])[2]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1009761-1580-4519-8354-bf4d93a2aa57",
+      "comment": "",
+      "command": "click",
+      "target": "id=bp-link_en_229731-0",
+      "targets": [
+        ["id=bp-link_en_229731-0", "id"],
+        ["linkText=continue your application", "linkText"],
+        ["css=#bp-link_en_229731-0", "css:finder"],
+        ["xpath=//a[contains(text(),'continue your application')]", "xpath:link"],
+        ["xpath=//a[@id='bp-link_en_229731-0']", "xpath:attributes"],
+        ["xpath=//div[@id='sp-3426']/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://apply.santander.co.uk/PortINTPubRetOJBankWeb/retrieveApplication?saver=false&card=true&fatca=true&btfl=0&psb=3007310000002&pss=3007310000003&psd=5057000000001&ex=310520&refId=1%7C2%7C3prod%20&PPC=3007310000003&step=retrieve')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'continue your application')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6726",
+      "windowTimeout": 2000
+    }, {
+      "id": "7bb0788d-1d78-4984-9a07-3e7714b7bd45",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6726}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d77fc373-8384-49cc-a874-20d6b7ce25a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=p > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//form[@id='retrieveForm']/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.santander.co.uk/uk/help-support/contact-us']", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4900",
+      "windowTimeout": 2000
+    }, {
+      "id": "21d0c7dd-510a-4f01-aafd-8ea22e36ed75",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4900}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e07f113b-95df-4632-85ce-da31937502c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Online and Mobile Banking",
+      "targets": [
+        ["linkText=Online and Mobile Banking", "linkText"],
+        ["css=.form-group:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Online and Mobile Banking')]", "xpath:link"],
+        ["xpath=(//a[@onclick='Drupal.digitalData.event(this);'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='edit-id']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.santander.co.uk/personal/support/talk-to-us?id=187&idtitle=online-and-mobile-banking')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online and Mobile Banking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e208e3b-402a-45bb-bde9-542291cbb954",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Manage your account",
+      "targets": [
+        ["linkText=Manage your account", "linkText"],
+        ["css=.form-group:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Manage your account')]", "xpath:link"],
+        ["xpath=(//a[@onclick='Drupal.digitalData.event(this);'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='edit-id']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.santander.co.uk/personal/support/talk-to-us?id=188&idtitle=manage-your-account')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Manage your account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "26bfb51b-d099-44b8-b2e7-966b3434b649",
+    "name": "asda",
+    "commands": [{
+      "id": "0fa11c2b-ee08-431e-9878-16fb26b33b5f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a248798-5705-489d-bd18-244b4d7d5ea4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caf6c0b9-d4d2-4f5b-b592-58fdfee3ac1e",
+      "comment": "",
+      "command": "assertText",
+      "target": "//div[@class=\"homepageLinks startShoppingLink\"]/a",
+      "targets": [],
+      "value": "Start shopping"
+    }, {
+      "id": "cc2620ea-f1bb-47fa-92e9-f9599b3e5076",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Summer",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "585045a1-6e59-430f-ade5-4137bc2e8f09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\31 215684741318 > span",
+      "targets": [
+        ["css=.\\31 215684741318 > span", "css:finder"],
+        ["xpath=//li[@id='1547998594']/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/ul/div/div/div/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'BBQ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8e196d2-c11c-4b0c-9f96-79fad15a61a4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\31 215684741318 > span",
+      "targets": [
+        ["css=.\\31 215684741318 > span", "css:finder"],
+        ["xpath=//li[@id='1547998594']/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/ul/div/div/div/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'BBQ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cb05a98-833f-4322-b476-d48e36e17beb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\31 215684741327 > span",
+      "targets": [
+        ["css=.\\31 215684741327 > span", "css:finder"],
+        ["xpath=//li[@id='1392949365']/a/span", "xpath:idRelative"],
+        ["xpath=//ul[2]/div/div/div/li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Salad, Sides & Condiments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6281cdea-ea5c-4f11-a264-9940eaf14079",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\31 215684741328 > span",
+      "targets": [
+        ["css=.\\31 215684741328 > span", "css:finder"],
+        ["xpath=//li[@id='567120719']/a/span", "xpath:idRelative"],
+        ["xpath=//ul[3]/div/div/div/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Salad & Sides')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b372839-72f8-407a-a819-4e0606b10054",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\31 215684741328 > span",
+      "targets": [
+        ["css=.\\31 215684741328 > span", "css:finder"],
+        ["xpath=//li[@id='567120719']/a/span", "xpath:idRelative"],
+        ["xpath=//ul[3]/div/div/div/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Salad & Sides')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "307b90c0-9789-49db-8816-730482706acf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing:nth-child(3) > .container:nth-child(3) img",
+      "targets": [
+        ["css=.listing:nth-child(3) > .container:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='ASDA Tomato & Basil Chicken Pasta Salad  2 FOR £3.00']", "xpath:img"],
+        ["xpath=//div[@id='listingsContainer-9dba8def-e566-bb9f-f00a-7ae843f59aeb']/div/div[3]/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ebd9eab-bda0-4bfb-af2b-04a6de37c3b4",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e1bb88e-8a0d-4667-a258-1bd1b3ef0cf6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b32a711c-1955-4adf-9e88-9d4f4945946a",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "ASDA Tomato & Basil Chicken Pasta Salad - ASDA Groceries",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f464b0c8-a9dc-4ce4-9351-74f19ffe100c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5138d55-5610-488a-b69c-15942f5bc5e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#reviews-tab-click > .tab-text",
+      "targets": [
+        ["css=#reviews-tab-click > .tab-text", "css:finder"],
+        ["xpath=//a[@id='reviews-tab-click']/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Reviews')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18294f3a-1918-4c23-9c9f-acb12fc80a79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FT_Sites_List:nth-child(2) > li:nth-child(1) > a",
+      "targets": [
+        ["css=.FT_Sites_List:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='footerMenuWrap']/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://direct.asda.com/george/clothing/10,default,sc.html?cmpid=ghs-_-geor-_-groceries-dsk-_-globalfooter-_-globalnav')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3273",
+      "windowTimeout": 2000
+    }, {
+      "id": "597c85bd-e345-4db7-9007-16f11e4c2208",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3273}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c68cfb4f-7a14-4dea-8975-e08aa840d5e8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.panel-one > a .align_center",
+      "targets": [
+        ["css=.panel-one > a .align_center", "css:finder"],
+        ["xpath=//img[@alt=\"Get ready for summer with 20% off selected women's swimwear and footwear\"]", "xpath:img"],
+        ["xpath=//div[@id='ghp']/section/section/section/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6b91033-2487-48e2-bce7-b899ea79a418",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "562dd94b-7539-4402-bd60-2f864b8505f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FT_Sites_List:nth-child(2) > li:nth-child(1) > a",
+      "targets": [
+        ["css=.FT_Sites_List:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='footerMenuWrap']/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://direct.asda.com/george/clothing/10,default,sc.html?cmpid=ghs-_-geor-_-groceries-dsk-_-globalfooter-_-globalnav')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6146",
+      "windowTimeout": 2000
+    }, {
+      "id": "92a5dc48-ccad-41ae-bba4-2a8aa6a77f09",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6146}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47eb7596-1340-4b2c-abce-47455c460061",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.panel-one > a .align_center",
+      "targets": [
+        ["css=.panel-one > a .align_center", "css:finder"],
+        ["xpath=//img[@alt=\"Get ready for summer with 20% off selected women's swimwear and footwear\"]", "xpath:img"],
+        ["xpath=//div[@id='ghp']/section/section/section/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f857ac1-2e46-452b-a452-c66b14ae5eb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > span",
+      "targets": [
+        ["css=.hover > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "363c782e-4f47-428f-83c6-a3882e9fa6ff",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active > span",
+      "targets": [
+        ["css=.active > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac91ccd9-b636-4d37-b489-ed581e53b083",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View All",
+      "targets": [
+        ["linkText=View All", "linkText"],
+        ["css=ul:nth-child(2) > li:nth-child(3) > .text-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'View All')])[34]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[3]/div/div/div/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/george/women/view-all/D1M1G23C1,default,sc.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f929807f-1024-4c63-a043-d6485584d970",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Coats & Jackets",
+      "targets": [
+        ["linkText=Coats & Jackets", "linkText"],
+        ["css=.category-link:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Coats & Jackets')])[5]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[3]/div/div/div/div[3]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/george/womens/coats-jackets/D1M1G20C6,default,sc.html')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3e4a2cfe-dd08-45f8-95a9-20504f2e7053",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.tesco.com/", "https://www.santander.co.uk/", "https://groceries.asda.com/"],
+  "plugins": []
+}

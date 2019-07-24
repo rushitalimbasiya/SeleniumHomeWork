@@ -1,0 +1,1238 @@
+{
+  "id": "429b02eb-7ab0-44b1-870e-f84163a84f60",
+  "version": "2.0",
+  "name": "santander",
+  "url": "https://www.johnlewis.com/",
+  "tests": [{
+    "id": "fe6c1b74-17e7-450e-afd3-bd63d2c2a95f",
+    "name": "santander_2",
+    "commands": [{
+      "id": "7c3e441d-dcc4-4eaf-b4dd-5a226378fa38",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.santander.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "906ebd6c-6032-4b63-b605-b7322d96fce2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a659ddc-c531-41e5-a938-40b27bd9bc2c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Current accounts",
+      "targets": [
+        ["linkText=Current accounts", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Current accounts')]", "xpath:link"],
+        ["xpath=//nav[@id='main-menu--special']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/personal/current-accounts')]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Current accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "577b691c-1949-4c36-bef8-5dee0f4289f1",
+      "comment": "",
+      "command": "assertText",
+      "target": "//a[@id='70']/div",
+      "targets": [],
+      "value": "No monthly fee"
+    }, {
+      "id": "2d56ab05-03f6-40be-b1ce-19b94b2ef5e4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@id='69']/div",
+      "targets": [
+        ["css=#\\36 9 > .text", "css:finder"],
+        ["xpath=//a[@id='69']/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3a21bf8-a874-4962-a483-e1ac1a28d88e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@class='col-xs-12']/div/ul/li/a[@title='1|2|3 Current Account']",
+      "targets": [
+        ["linkText=Full details", "linkText"],
+        ["css=.views-row:nth-child(1) .col-xs-12 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Full details')]", "xpath:link"],
+        ["xpath=//div[@id='sp-3527']/div/div/div/div/div/div[2]/div/div/div/div[4]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/personal/current-accounts/123-current-account')])[4]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Full details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b815be9-4fa1-43f0-b094-ac9231b5b963",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1|2|3 World offers",
+      "targets": [
+        ["linkText=1|2|3 World offers", "linkText"],
+        ["css=.bullet-tick > li:nth-child(1) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'1|2|3 World offers')]", "xpath:link"],
+        ["xpath=//div[@id='sp-4514']/div/div/div/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/personal/123-world')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1|2|3 World offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccfddcf2-7264-4f26-8021-2c923323e0a0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@class=\"view-header\"]/div/ul/li[1]/a",
+      "targets": [
+        ["linkText=1|2|3 Current Account", "linkText"],
+        ["css=.field:nth-child(1) li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'1|2|3 Current Account')])[2]", "xpath:link"],
+        ["xpath=//div[@id='sp-6138']/div/div/div/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/personal/current-accounts/123-current-account')])[2]", "xpath:href"],
+        ["xpath=//div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58b597a5-0815-4d80-9000-22ddf9bcf2ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=bp-link_en_220653-0",
+      "targets": [
+        ["id=bp-link_en_220653-0", "id"],
+        ["linkText=Apply", "linkText"],
+        ["css=#bp-link_en_220653-0", "css:finder"],
+        ["xpath=(//a[contains(text(),'Apply')])[2]", "xpath:link"],
+        ["xpath=//a[@id='bp-link_en_220653-0']", "xpath:attributes"],
+        ["xpath=//div[@id='sp-1699']/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.santander.co.uk/personal/current-accounts/123-current-account/apply-for-a-123-current-account'])[2]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1009761-1580-4519-8354-bf4d93a2aa57",
+      "comment": "",
+      "command": "click",
+      "target": "id=bp-link_en_229731-0",
+      "targets": [
+        ["id=bp-link_en_229731-0", "id"],
+        ["linkText=continue your application", "linkText"],
+        ["css=#bp-link_en_229731-0", "css:finder"],
+        ["xpath=//a[contains(text(),'continue your application')]", "xpath:link"],
+        ["xpath=//a[@id='bp-link_en_229731-0']", "xpath:attributes"],
+        ["xpath=//div[@id='sp-3426']/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://apply.santander.co.uk/PortINTPubRetOJBankWeb/retrieveApplication?saver=false&card=true&fatca=true&btfl=0&psb=3007310000002&pss=3007310000003&psd=5057000000001&ex=310520&refId=1%7C2%7C3prod%20&PPC=3007310000003&step=retrieve')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'continue your application')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6726",
+      "windowTimeout": 2000
+    }, {
+      "id": "7bb0788d-1d78-4984-9a07-3e7714b7bd45",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6726}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d77fc373-8384-49cc-a874-20d6b7ce25a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=p > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//form[@id='retrieveForm']/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.santander.co.uk/uk/help-support/contact-us']", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4900",
+      "windowTimeout": 2000
+    }, {
+      "id": "21d0c7dd-510a-4f01-aafd-8ea22e36ed75",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4900}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e07f113b-95df-4632-85ce-da31937502c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Online and Mobile Banking",
+      "targets": [
+        ["linkText=Online and Mobile Banking", "linkText"],
+        ["css=.form-group:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Online and Mobile Banking')]", "xpath:link"],
+        ["xpath=(//a[@onclick='Drupal.digitalData.event(this);'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='edit-id']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.santander.co.uk/personal/support/talk-to-us?id=187&idtitle=online-and-mobile-banking')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Online and Mobile Banking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e208e3b-402a-45bb-bde9-542291cbb954",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Manage your account",
+      "targets": [
+        ["linkText=Manage your account", "linkText"],
+        ["css=.form-group:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Manage your account')]", "xpath:link"],
+        ["xpath=(//a[@onclick='Drupal.digitalData.event(this);'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='edit-id']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.santander.co.uk/personal/support/talk-to-us?id=188&idtitle=manage-your-account')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Manage your account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "26bfb51b-d099-44b8-b2e7-966b3434b649",
+    "name": "asda",
+    "commands": [{
+      "id": "0fa11c2b-ee08-431e-9878-16fb26b33b5f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a248798-5705-489d-bd18-244b4d7d5ea4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caf6c0b9-d4d2-4f5b-b592-58fdfee3ac1e",
+      "comment": "",
+      "command": "assertText",
+      "target": "//div[@class=\"homepageLinks startShoppingLink\"]/a",
+      "targets": [],
+      "value": "Start shopping"
+    }, {
+      "id": "cc2620ea-f1bb-47fa-92e9-f9599b3e5076",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Summer",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "585045a1-6e59-430f-ade5-4137bc2e8f09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\31 215684741318 > span",
+      "targets": [
+        ["css=.\\31 215684741318 > span", "css:finder"],
+        ["xpath=//li[@id='1547998594']/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/ul/div/div/div/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'BBQ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8e196d2-c11c-4b0c-9f96-79fad15a61a4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\31 215684741318 > span",
+      "targets": [
+        ["css=.\\31 215684741318 > span", "css:finder"],
+        ["xpath=//li[@id='1547998594']/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/ul/div/div/div/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'BBQ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cb05a98-833f-4322-b476-d48e36e17beb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\31 215684741327 > span",
+      "targets": [
+        ["css=.\\31 215684741327 > span", "css:finder"],
+        ["xpath=//li[@id='1392949365']/a/span", "xpath:idRelative"],
+        ["xpath=//ul[2]/div/div/div/li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Salad, Sides & Condiments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6281cdea-ea5c-4f11-a264-9940eaf14079",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\31 215684741328 > span",
+      "targets": [
+        ["css=.\\31 215684741328 > span", "css:finder"],
+        ["xpath=//li[@id='567120719']/a/span", "xpath:idRelative"],
+        ["xpath=//ul[3]/div/div/div/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Salad & Sides')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b372839-72f8-407a-a819-4e0606b10054",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\31 215684741328 > span",
+      "targets": [
+        ["css=.\\31 215684741328 > span", "css:finder"],
+        ["xpath=//li[@id='567120719']/a/span", "xpath:idRelative"],
+        ["xpath=//ul[3]/div/div/div/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Salad & Sides')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "307b90c0-9789-49db-8816-730482706acf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing:nth-child(3) > .container:nth-child(3) img",
+      "targets": [
+        ["css=.listing:nth-child(3) > .container:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='ASDA Tomato & Basil Chicken Pasta Salad  2 FOR £3.00']", "xpath:img"],
+        ["xpath=//div[@id='listingsContainer-9dba8def-e566-bb9f-f00a-7ae843f59aeb']/div/div[3]/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ebd9eab-bda0-4bfb-af2b-04a6de37c3b4",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e1bb88e-8a0d-4667-a258-1bd1b3ef0cf6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f464b0c8-a9dc-4ce4-9351-74f19ffe100c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5138d55-5610-488a-b69c-15942f5bc5e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#reviews-tab-click > .tab-text",
+      "targets": [
+        ["css=#reviews-tab-click > .tab-text", "css:finder"],
+        ["xpath=//a[@id='reviews-tab-click']/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Reviews')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18294f3a-1918-4c23-9c9f-acb12fc80a79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FT_Sites_List:nth-child(2) > li:nth-child(1) > a",
+      "targets": [
+        ["css=.FT_Sites_List:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='footerMenuWrap']/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://direct.asda.com/george/clothing/10,default,sc.html?cmpid=ghs-_-geor-_-groceries-dsk-_-globalfooter-_-globalnav')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3273",
+      "windowTimeout": 2000
+    }, {
+      "id": "597c85bd-e345-4db7-9007-16f11e4c2208",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3273}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c68cfb4f-7a14-4dea-8975-e08aa840d5e8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.panel-one > a .align_center",
+      "targets": [
+        ["css=.panel-one > a .align_center", "css:finder"],
+        ["xpath=//img[@alt=\"Get ready for summer with 20% off selected women's swimwear and footwear\"]", "xpath:img"],
+        ["xpath=//div[@id='ghp']/section/section/section/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6b91033-2487-48e2-bce7-b899ea79a418",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "562dd94b-7539-4402-bd60-2f864b8505f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.FT_Sites_List:nth-child(2) > li:nth-child(1) > a",
+      "targets": [
+        ["css=.FT_Sites_List:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='footerMenuWrap']/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://direct.asda.com/george/clothing/10,default,sc.html?cmpid=ghs-_-geor-_-groceries-dsk-_-globalfooter-_-globalnav')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6146",
+      "windowTimeout": 2000
+    }, {
+      "id": "92a5dc48-ccad-41ae-bba4-2a8aa6a77f09",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6146}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47eb7596-1340-4b2c-abce-47455c460061",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.panel-one > a .align_center",
+      "targets": [
+        ["css=.panel-one > a .align_center", "css:finder"],
+        ["xpath=//img[@alt=\"Get ready for summer with 20% off selected women's swimwear and footwear\"]", "xpath:img"],
+        ["xpath=//div[@id='ghp']/section/section/section/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f857ac1-2e46-452b-a452-c66b14ae5eb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > span",
+      "targets": [
+        ["css=.hover > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "363c782e-4f47-428f-83c6-a3882e9fa6ff",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active > span",
+      "targets": [
+        ["css=.active > span", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac91ccd9-b636-4d37-b489-ed581e53b083",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View All",
+      "targets": [
+        ["linkText=View All", "linkText"],
+        ["css=ul:nth-child(2) > li:nth-child(3) > .text-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'View All')])[34]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[3]/div/div/div/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/george/women/view-all/D1M1G23C1,default,sc.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f929807f-1024-4c63-a043-d6485584d970",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Coats & Jackets",
+      "targets": [
+        ["linkText=Coats & Jackets", "linkText"],
+        ["css=.category-link:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Coats & Jackets')])[5]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div[3]/div/div/div/div[3]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/george/womens/coats-jackets/D1M1G20C6,default,sc.html')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "59761a83-6200-433d-bd2b-ca532da256ce",
+    "name": "Tesco_3",
+    "commands": [{
+      "id": "30223da3-716d-4ab0-8df0-2a75254760a0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tesco.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a0f8545-8242-44df-a47b-0bfc3cbf88ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b741880-5c07-4cd1-bb7c-881b5888a3d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-bar:nth-child(2) > #searchBar .input-text-box",
+      "targets": [
+        ["css=.search-bar:nth-child(2) > #searchBar .input-text-box", "css:finder"],
+        ["xpath=(//input[@name='searchKey'])[2]", "xpath:attributes"],
+        ["xpath=(//form[@id='searchBar']/div/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff6c67fc-c848-44ba-8c20-81f35f2d0b70",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//form[@id='searchBar']/div/input)[2]",
+      "targets": [
+        ["css=.autoComplete:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@name='searchKey'])[2]", "xpath:attributes"],
+        ["xpath=(//form[@id='searchBar']/div/input)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "bread"
+    }, {
+      "id": "44ae8b95-532e-4ade-92b7-06033220de9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-bar:nth-child(2) > #searchBar .ui-icon",
+      "targets": [
+        ["css=.search-bar:nth-child(2) > #searchBar .ui-icon", "css:finder"],
+        ["xpath=(//form[@id='searchBar']/button/span)[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72d4e0aa-8a34-4a09-a637-bf8538cfb13d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Special Offers",
+      "targets": [
+        ["linkText=Special Offers", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-item__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Special Offers')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/div/div/div/header/div/div[3]/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/groceries/en-GB/promotions')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Special Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33eb86d9-c3ba-45b7-9f36-8d673ecc7d44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-item:nth-child(2) .name",
+      "targets": [
+        ["css=.list-item:nth-child(2) .name", "css:finder"],
+        ["xpath=//div[@id='accordion-offers-by-department']/ul/li[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d359386-a191-4223-aec8-9bd33a9617ef",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pringles Original Crisps 200G",
+      "targets": [
+        ["linkText=Pringles Original Crisps 200G", "linkText"],
+        ["css=#tile-296734865 .sc-htoDjs", "css:finder"],
+        ["xpath=//a[contains(text(),'Pringles Original Crisps 200G')]", "xpath:link"],
+        ["xpath=//div[@id='tile-296734865']/div[2]/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/groceries/en-GB/products/296734865')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div/div/div/div/div[2]/div/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pringles Original Crisps 200G')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35dbc641-4a3f-4d97-ae9f-7d0a22977308",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//section[4]/ul/li[2]/a/span[2]['Store locator']",
+      "targets": [
+        ["css=.footer\\3A contact-us .footer-list-item:nth-child(2) .footer-list__link-text", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[3]/footer/div/section[4]/ul/li[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//section[4]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4480",
+      "windowTimeout": 3000
+    }, {
+      "id": "27be98d5-f1db-409d-9cbc-932f048bda23",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4480}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b949fe3d-8406-43f4-af92-5652de704d78",
+      "comment": "",
+      "command": "click",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["name=address", "name"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "469cd07f-cb27-4989-86c5-c28cd91aa00a",
+      "comment": "",
+      "command": "type",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["name=address", "name"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ub59au"
+    }, {
+      "id": "d8e3215e-5b53-45c9-bc3a-184338a44464",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ddl-icon:nth-child(1) > .ddl-asset-forward_link",
+      "targets": [
+        ["css=.ddl-icon:nth-child(1) > .ddl-asset-forward_link", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "929d3253-4a9e-4456-b7c6-221bc3d78929",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-item:nth-child(1) .ddl-checkbox__box",
+      "targets": [
+        ["css=.list-item:nth-child(1) .ddl-checkbox__box", "css:finder"],
+        ["xpath=//div[@id='storeLocatorFilter']/div/div/ul/li/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74b48f45-9469-4347-9376-094366828269",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-item:nth-child(6) .ddl-checkbox__box",
+      "targets": [
+        ["css=.list-item:nth-child(6) .ddl-checkbox__box", "css:finder"],
+        ["xpath=//div[@id='storeLocatorFilter']/div/div/ul/li[6]/div/label", "xpath:idRelative"],
+        ["xpath=//li[6]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "491281ea-699a-497e-adf4-fde693eb93c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .accordion .ddl-asset-expand",
+      "targets": [
+        ["css=li:nth-child(1) > .accordion .ddl-asset-expand", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec2031a9-c69a-4d2c-bded-8d3c174e2c42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .ddl-btn-secondary-link__label > span",
+      "targets": [
+        ["css=.open .ddl-btn-secondary-link__label > span", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div[2]/ol/li/div/div/div/div[3]/a[2]/span/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "06f7d751-77af-4021-abb8-a4b97c716037",
+    "name": "John Lewis_4",
+    "commands": [{
+      "id": "85d48860-bce6-4502-9512-ac4741cd6334",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.johnlewis.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf02ca2e-a6bb-485e-8274-f139989fd0e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fb5f276-f8bf-4ec0-ad33-81e8704025f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.desktop-nav-nav-lrg-screen--462d4>ul>li:nth-child(5)>a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30c978eb-8544-48f9-9fa7-2ce9e8c1aaff",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Coats & Jackets",
+      "targets": [
+        ["linkText=Coats & Jackets", "linkText"],
+        ["css=.primary-link-list-item--23ac8:nth-child(5) .category-nav-lrg-secondary-cat--5236a:nth-child(1) .secondary-link-item--83dd5:nth-child(2) > .secondary-link-link--9fe4a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Coats & Jackets')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/header/nav/ul/li[5]/div/div/ul/li/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/men/mens-coats-jackets/_/N-ea9')]", "xpath:href"],
+        ["xpath=//li[5]/div/div/ul/li/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e9eadad-3d62-41ce-ab6f-b1471f739004",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,880)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cb079ba-661b-47c3-a769-4f506c7ba443",
+      "comment": "",
+      "command": "click",
+      "target": "css=.faceted-filters-section:nth-child(6) .accordion-control",
+      "targets": [
+        ["css=.faceted-filters-section:nth-child(6) .accordion-control", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//section[6]/div/h2/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Price')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "927c61b8-6f28-4ab4-b833-f5d48afdae9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#accordion-5 .faceted-filters-section-list-item:nth-child(7) > .faceted-filters-section-list-link",
+      "targets": [
+        ["css=#accordion-5 .faceted-filters-section-list-item:nth-child(7) > .faceted-filters-section-list-link", "css:finder"],
+        ["xpath=//div[@id='accordion-5']/div/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/men/mens-coats-jackets/price=250-500/_/N-ea9Z6ssu')]", "xpath:href"],
+        ["xpath=//section[6]/div/div/div/div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba784109-5ebd-412b-9fb7-2689035c41ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slider-toggle",
+      "targets": [
+        ["css=.slider-toggle", "css:finder"],
+        ["xpath=//div[3]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6117687c-6e18-4179-8b60-b5d2d5bfc881",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-sort",
+      "targets": [
+        ["id=product-sort", "id"],
+        ["name=sortBy", "name"],
+        ["css=#product-sort", "css:finder"],
+        ["xpath=//select[@id='product-sort']", "xpath:attributes"],
+        ["xpath=//form/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03c37d96-2ef3-48fe-bced-bdb6309fc99f",
+      "comment": "",
+      "command": "select",
+      "target": "id=product-sort",
+      "targets": [],
+      "value": "label=Popularity"
+    }, {
+      "id": "592629d5-9885-4ed8-83d7-e2d6cb11f3f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-sort",
+      "targets": [
+        ["id=product-sort", "id"],
+        ["name=sortBy", "name"],
+        ["css=#product-sort", "css:finder"],
+        ["xpath=//select[@id='product-sort']", "xpath:attributes"],
+        ["xpath=//form/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e4b1572-a11a-4ebb-8824-d266af08aa6d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,744)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fa8bc77-1843-4135-a32f-d94d0a696e8c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Diesel L-Shiro Panelled Nappa Biker Jacket, Black')]",
+      "targets": [
+        ["css=.product-list-container__chunk--2 > .product-card:nth-child(6) .product-card__title-inner", "css:finder"],
+        ["xpath=//div[2]/section[6]/div[2]/a/h2/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Diesel L-Shiro Panelled Nappa Biker Jacket, Black')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "069e2e58-e814-4a3f-8196-94c76abb385b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=skip-link--product-detail--delivery",
+      "targets": [
+        ["id=skip-link--product-detail--delivery", "id"],
+        ["linkText=View delivery options", "linkText"],
+        ["css=#skip-link--product-detail--delivery", "css:finder"],
+        ["xpath=//a[contains(text(),'View delivery options')]", "xpath:link"],
+        ["xpath=//a[@id='skip-link--product-detail--delivery']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#product-detail--delivery')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'View delivery options')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a47d7a4-97ae-4a89-8758-e56a00177764",
+      "comment": "",
+      "command": "click",
+      "target": "css=.size-small-item:nth-child(3) > .size-link",
+      "targets": [
+        ["css=.size-small-item:nth-child(3) > .size-link", "css:finder"],
+        ["xpath=//a[contains(@href, '/diesel-l-shiro-panelled-nappa-biker-jacket-black/p3847721?size=l')]", "xpath:href"],
+        ["xpath=//section/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c05528e-d5c1-41f1-b44c-54cfb2226781",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.size-link--current",
+      "targets": [
+        ["css=.size-link--current", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//section/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d2f7728-a6c7-46c9-8867-198d8febe4f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=button--add-to-basket",
+      "targets": [
+        ["id=button--add-to-basket", "id"],
+        ["css=#button--add-to-basket", "css:finder"],
+        ["xpath=//button[@id='button--add-to-basket']", "xpath:attributes"],
+        ["xpath=//form[@id='add-to-basket-form']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to your basket')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31dbc8a3-1cbb-4d7d-9966-c2e360391d9f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,657)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61fe801e-c773-48dc-b6ca-672008b1b9eb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.add-to-wish-list-placeholder>div>a>div>span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ef47bc5-9a49-40d1-8841-fbe2802aae0b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to your basket",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08ec059c-17e4-47c5-8a70-f5d039107b23",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-button--basket-continue-shopping",
+      "targets": [
+        ["id=link-button--basket-continue-shopping", "id"],
+        ["linkText=Continue shopping", "linkText"],
+        ["css=.view-basket-list-container > #link-button--basket-continue-shopping", "css:finder"],
+        ["xpath=//a[contains(text(),'Continue shopping')]", "xpath:link"],
+        ["xpath=//a[@id='link-button--basket-continue-shopping']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '/')])[588]", "xpath:href"],
+        ["xpath=//main/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continue shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00ba8e1e-78f2-451b-8b7c-c6ea5e63ad89",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-basket--63f71 svg",
+      "targets": [
+        ["css=.header-basket--63f71 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "df1458d8-12ba-4d63-9c70-3177c70e0b37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-basket--63f71 svg",
+      "targets": [
+        ["css=.header-basket--63f71 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4dfa860-337c-457d-b2c6-946674dec101",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove-basket-item-form-button",
+      "targets": [
+        ["css=.remove-basket-item-form-button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//li[@id='ciaup7435397953']/form[2]/button", "xpath:idRelative"],
+        ["xpath=//form[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1e69f85-01cc-4694-89b5-3db6da3c8e6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-button--basket-empty-continue-shopping",
+      "targets": [
+        ["id=link-button--basket-empty-continue-shopping", "id"],
+        ["linkText=Continue shopping", "linkText"],
+        ["css=#link-button--basket-empty-continue-shopping", "css:finder"],
+        ["xpath=//a[contains(text(),'Continue shopping')]", "xpath:link"],
+        ["xpath=//a[@id='link-button--basket-empty-continue-shopping']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '/')])[587]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continue shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "960078f5-934a-42db-8389-13d0e613e8bf",
+    "name": "ebay_5",
+    "commands": [{
+      "id": "c0db6f9a-b326-4c51-8be8-b703b32eb80e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ebay.co.uk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c48598f-c429-451a-a9b3-d4d1b94fbd89",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2aa5c707-2bde-4817-ab9f-76b4b81e98f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-cat",
+      "targets": [
+        ["id=gh-cat", "id"],
+        ["name=_sacat", "name"],
+        ["css=#gh-cat", "css:finder"],
+        ["xpath=//select[@id='gh-cat']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-cat-box']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f43d5a8a-c0b9-4406-a34d-a70380cdadc7",
+      "comment": "",
+      "command": "select",
+      "target": "id=gh-cat",
+      "targets": [],
+      "value": "label=Baby"
+    }, {
+      "id": "0f01f409-4e82-4362-9afc-9524d164ac82",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-cat",
+      "targets": [
+        ["id=gh-cat", "id"],
+        ["name=_sacat", "name"],
+        ["css=#gh-cat", "css:finder"],
+        ["xpath=//select[@id='gh-cat']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-cat-box']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d9fbccf-2e03-44e4-8b02-64a9632cc9f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-btn",
+      "targets": [
+        ["id=gh-btn", "id"],
+        ["css=#gh-btn", "css:finder"],
+        ["xpath=//input[@id='gh-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='gh-f']/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd60150e-2d7b-4124-935c-c4acaf76ddd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#w2-w0-w8-toggle-button > .b-accordion-text",
+      "targets": [
+        ["css=#w2-w0-w8-toggle-button > .b-accordion-text", "css:finder"],
+        ["xpath=//button[@id='w2-w0-w8-toggle-button']/span", "xpath:idRelative"],
+        ["xpath=//li[11]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Baby Toys & Activities')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbad5251-6483-4182-80af-1039ad0eb33b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,40)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "280eaf10-9dee-4996-97c9-33849edba64e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Baby Swimming Aids",
+      "targets": [
+        ["linkText=Baby Swimming Aids", "linkText"],
+        ["css=#w2-w0-w8 li:nth-child(6) > .b-textlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby Swimming Aids')]", "xpath:link"],
+        ["xpath=//li[@id='w2-w0-w8']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.co.uk/b/Baby-Swimming-Aids/121632/bn_2314584')]", "xpath:href"],
+        ["xpath=//li[11]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby Swimming Aids')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8b60f7d-258a-4153-ae58-c05cf158800d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#w7-xCarousel-next > .svg-icon",
+      "targets": [
+        ["css=#w7-xCarousel-next > .svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3893bbc-d4a2-4c4f-90e2-1b57fdbdab80",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) .b-guidancecard__title",
+      "targets": [
+        ["css=li:nth-child(4) .b-guidancecard__title", "css:finder"],
+        ["xpath=//div[@id='w7-xCarousel-x-carousel-items']/ul/li[4]/a/p", "xpath:idRelative"],
+        ["xpath=//li[4]/a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'3-4 Years')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "332fbb40-759c-4da4-966d-a4cb83b60670",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,40)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7a566b4-5f62-48fb-8ac5-29bd6eabead3",
+      "comment": "",
+      "command": "click",
+      "target": "id=w2-w1-w0-w2-0-0[0]",
+      "targets": [
+        ["id=w2-w1-w0-w2-0-0[0]", "id"],
+        ["css=#w2-w1-w0-w2-0-0\\[0\\]", "css:finder"],
+        ["xpath=//input[@id='w2-w1-w0-w2-0-0[0]']", "xpath:attributes"],
+        ["xpath=//div[@id='w2-w1-w0-w2-0']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d75b8d0c-4950-47ed-a60e-bbe0c36f1580",
+      "comment": "",
+      "command": "type",
+      "target": "id=w2-w1-w0-w2-0-0[0]",
+      "targets": [
+        ["id=w2-w1-w0-w2-0-0[0]", "id"],
+        ["css=#w2-w1-w0-w2-0-0\\[0\\]", "css:finder"],
+        ["xpath=//input[@id='w2-w1-w0-w2-0-0[0]']", "xpath:attributes"],
+        ["xpath=//div[@id='w2-w1-w0-w2-0']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "15"
+    }, {
+      "id": "0678599d-4c76-49db-8efe-98af8e339df8",
+      "comment": "",
+      "command": "type",
+      "target": "id=w2-w1-w0-w2-0-1[0]",
+      "targets": [
+        ["id=w2-w1-w0-w2-0-1[0]", "id"],
+        ["css=#w2-w1-w0-w2-0-1\\[0\\]", "css:finder"],
+        ["xpath=//input[@id='w2-w1-w0-w2-0-1[0]']", "xpath:attributes"],
+        ["xpath=//div[@id='w2-w1-w0-w2-0']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "40"
+    }, {
+      "id": "ffe98553-d381-4803-b24c-29f20938c553",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,40)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d176756-791f-4dd2-b512-11c71982ca88",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,720)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7903a93b-4405-454b-bc7d-ea2d84131e88",
+      "comment": "",
+      "command": "click",
+      "target": "css=#w9-items\\[4\\] .s-item__title",
+      "targets": [
+        ["css=#w9-items\\[4\\] .s-item__title", "css:finder"],
+        ["xpath=//li[@id='w9-items[4]']/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[5]/div/div[2]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Splash About Go Splash Float Jacket & matching Sun & Sea Combie Beach Wetsuit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "155a2175-2258-4045-9471-2532f579d63a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,37)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ace125ee-66a7-47af-beda-1a00d66ece62",
+      "comment": "",
+      "command": "click",
+      "target": "id=binBtn_btn",
+      "targets": [
+        ["id=binBtn_btn", "id"],
+        ["css=#binBtn_btn", "css:finder"],
+        ["xpath=//a[@id='binBtn_btn']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/form/div[2]/table/tbody/tr/td[2]/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[135]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa5c63cd-5f6e-449a-82d2-493d35b84ab5",
+      "comment": "",
+      "command": "click",
+      "target": "id=sbin-signin-btn",
+      "targets": [
+        ["id=sbin-signin-btn", "id"],
+        ["css=#sbin-signin-btn", "css:finder"],
+        ["xpath=//button[@id='sbin-signin-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='sbin-buttons']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in for checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ce187bf-97c2-497a-81e9-ba0e9da5ccb1",
+      "comment": "",
+      "command": "click",
+      "target": "id=InLineCreateAnAccount",
+      "targets": [
+        ["id=InLineCreateAnAccount", "id"],
+        ["linkText=create an account", "linkText"],
+        ["css=#InLineCreateAnAccount", "css:finder"],
+        ["xpath=//a[contains(text(),'create an account')]", "xpath:link"],
+        ["xpath=//a[@id='InLineCreateAnAccount']", "xpath:attributes"],
+        ["xpath=//span[@id='GREET-SIGN-IN-TO-EBAY']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://reg.ebay.co.uk/reg/PartialReg?siteid=3&co_partnerId=0&UsingSSL=1&rv4=1&gch=1&gchru=https%3A%2F%2Fpay.ebay.co.uk%2Frgxo%3Faction%3Dcreate%26rypsvc%3Dtrue%26pagename%3Dryp%26item%3D254202505380%26quantity%3D1%26transactionid%3D-1%26var%3D553577433048%26rev%3D3&pageType=2143&ru=https%3A%2F%2Foffer.ebay.co.uk%2Fws%2FeBayISAPI.dll%3FBinConfirm%26item%3D254202505380%26quantity%3D1%26var%3D553577433048%26fb%3D1%26frompage%3D2047675%26rev%3D3%26BidBinInfo%3DbidInfoID254202505380%252FIDMB%252FMBQTY1%252FQTY%252FbidInfo&signInUrl=https%3A%2F%2Fwww.ebay.co.uk%2Fsignin%3Fsgn%3Dreg%26siteid%3D3%26co_partnerId%3D0%26UsingSSL%3D1%26rv4%3D1%26gch%3D1%26gchru%3Dhttps%253A%252F%252Fpay.ebay.co.uk%252Frgxo%253Faction%253Dcreate%2526rypsvc%253Dtrue%2526pagename%253Dryp%2526item%253D254202505380%2526quantity%253D1%2526transactionid%253D-1%2526var%253D553577433048%2526rev%253D3%26pageType%3D2143%26ru%3Dhttps%253A%252F%252Foffer.ebay.co.uk%252Fws%252FeBayISAPI.dll%253FBinConfirm%2526item%253D254202505380%2526quantity%253D1%2526var%253D553577433048%2526fb%253D1%2526frompage%253D2047675%2526rev%253D3%2526BidBinInfo%253DbidInfoID254202505380%25252FIDMB%25252FMBQTY1%25252FQTY%25252FbidInfo')])[2]", "xpath:href"],
+        ["xpath=//span[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'create an account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9df34b98-bb3c-482b-acfb-088ea32bf2c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='firstname_r']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4806de9-5dac-4148-b066-484e563f938c",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='firstname_r']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "payal"
+    }, {
+      "id": "84ff7db8-efff-4698-a804-0f2d554cc6ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='lastname_r']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da74db51-cf00-43a4-8fd6-72198240c4ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='lastname_r']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "patel"
+    }]
+  }],
+  "suites": [{
+    "id": "3e4a2cfe-dd08-45f8-95a9-20504f2e7053",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.tesco.com/", "https://www.santander.co.uk/", "https://groceries.asda.com/", "https://www.johnlewis.com/", "https://www.ebay.co.uk/"],
+  "plugins": []
+}
